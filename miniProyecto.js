@@ -103,8 +103,3 @@ Complete the studentMsg function with totalScores and studentScore for parameter
 */
 
 
-
-<form>
-    <input/>
-    <button></button>
-    </form>
