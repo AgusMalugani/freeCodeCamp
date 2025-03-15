@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Palíndromo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Aquí añades tu archivo CSS -->
 </head>
 <body>
-    
-    <form>
-        <label> Ingrese la palabra
-        <input type="text" id="text-input">
-        </label>
-        <button id="check-btn">Probar</button>
-    </form>
-    <div id="result"></div>
-<script src="/script.js" ></script>
+    <div class="container">
+        <form>
+            <label for="text-input">Ingrese la palabra:</label>
+            <input type="text" id="text-input">
+            <button id="check-btn">Probar</button>
+        </form>
+        <div id="result" class="result-container"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
